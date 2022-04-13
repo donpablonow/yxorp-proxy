@@ -67,7 +67,9 @@ class OverridePlugin extends AbstractPlugin
     
     function csv_to_array($filename='', $delimiter=',')
     {
-        $csvArray = array_map( 'str_getcsv', file( $filename ,FILE_SKIP_EMPTY_LINES) );
+        if(!($_file =  file( $filename ,FILE_SKIP_EMPTY_LINES))) return;
+
+        $csvArray = array_map( 'str_getcsv', $_file);
         return call_user_func_array('array_merge', $csvArray);
     }
 
