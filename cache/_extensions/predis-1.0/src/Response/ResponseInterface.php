@@ -1,6 +1,6 @@
-<?php /* yxorP */
-
-namespace Predis\Response;
-interface ResponseInterface
-{
-}
+<?php /* yxorP */
+
+namespace Predis\Response;
+interface ResponseInterface
+{
+}

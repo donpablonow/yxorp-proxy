@@ -1,11 +1,11 @@
-<?php /* yxorP */
-
-namespace Predis\Command;
-class StringGet extends Command
-{
-
-    public function getId(): string
-    {
-        return 'GET';
-    }
-}
+<?php /* yxorP */
+
+namespace Predis\Command;
+class StringGet extends Command
+{
+
+    public function getId(): string
+    {
+        return 'GET';
+    }
+}
