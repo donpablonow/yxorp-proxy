@@ -1,6 +1,6 @@
-<?php /* yxorP */
-
-namespace Predis;
-class ClientException extends PredisException
-{
-}
+<?php /* yxorP */
+
+namespace Predis;
+class ClientException extends PredisException
+{
+}

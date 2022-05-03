@@ -1,6 +1,6 @@
-<?php /* yxorP */
-
-class cacheCoreException extends Exception
-{
-
+<?php /* yxorP */
+
+class cacheCoreException extends Exception
+{
+
 }
