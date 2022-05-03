@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpEntryPointsManager">
+    <entry_point>
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/.yxorp.php" />
+      <entry_point TYPE="phpFunction" FQNAME="\app_url" />
+      <entry_point TYPE="phpFunction" FQNAME="\array_merge_custom" />
+      <entry_point TYPE="phpFunction" FQNAME="\base64_url_decode" />
+      <entry_point TYPE="phpFunction" FQNAME="\base64_url_encode" />
+      <entry_point TYPE="phpFunction" FQNAME="\in_arrayi" />
+      <entry_point TYPE="phpFunction" FQNAME="\is_html" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Cluster" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Cluster\Distributor" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Collection\Iterator" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Command" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Command\Processor" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Configuration" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Connection" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Connection\Aggregate" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Monitor" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Pipeline" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Profile" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Protocol" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Protocol\Text" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Protocol\Text\Handler" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\PubSub" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Replication" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Response" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Response\Iterator" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Session" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Predis\Transaction" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Proxy" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Proxy\Adapter\Dummy" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Proxy\Adapter\Guzzle" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Proxy\Exception" />
+      <entry_point TYPE="phpNamespace" FQNAME="\Proxy\Filter" />
+      <entry_point TYPE="phpFunction" FQNAME="\render_string" />
+      <entry_point TYPE="phpFunction" FQNAME="\str_rot_pass" />
+      <entry_point TYPE="phpFunction" FQNAME="\time_ms" />
+      <entry_point TYPE="phpNamespace" FQNAME="\yxorP\cache" />
+      <entry_point TYPE="phpFunction" FQNAME="\yxorP\cache\__c" />
+      <entry_point TYPE="phpNamespace" FQNAME="\yxorP\Http" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache __call" />
+      <entry_point TYPE="phpClass" FQNAME="\BaseCache" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_extensions __call" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_extensions" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\ClientContextInterface __call" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\ClientContextInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Pipeline\Pipeline __call" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Pipeline\Pipeline" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Pipeline\Pipeline __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_apc __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_apc" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_cookie __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_cookie" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_driver __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_driver" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_files __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_files" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_memcache __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_memcache" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_memcached __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_memcached" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_predis __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_predis" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_redis __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_redis" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_sqlite __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_sqlite" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_ssdb __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_ssdb" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_wincache __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_wincache" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_xcache __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_xcache" />
+      <entry_point TYPE="phpMethod" FQNAME="\NaiveDistributor __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\NaiveDistributor" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Client" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\ClusterStrategy __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Cluster\ClusterStrategy" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\Distributor\HashRing __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Cluster\Distributor\HashRing" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\Distributor\KetamaRing __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Cluster\Distributor\KetamaRing" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\ListKey __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Collection\Iterator\ListKey" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\ProcessorChain __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\Processor\ProcessorChain" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\MasterSlaveReplication __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\Aggregate\MasterSlaveReplication" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\PredisCluster __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\Aggregate\PredisCluster" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\Aggregate\RedisCluster" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\CompositeStreamConnection __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\CompositeStreamConnection" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Parameters __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\Parameters" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\PhpiredisSocketConnection __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\PhpiredisSocketConnection" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\PhpiredisStreamConnection __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\PhpiredisStreamConnection" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\WebdisConnection __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\WebdisConnection" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Pipeline\Atomic __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Pipeline\Atomic" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Profile\Factory __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Profile\Factory" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Profile\RedisProfile __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Profile\RedisProfile" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\CompositeProtocolProcessor __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Protocol\Text\CompositeProtocolProcessor" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\ProtocolProcessor __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Protocol\Text\ProtocolProcessor" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\ResponseReader __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Protocol\Text\ResponseReader" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Replication\ReplicationStrategy __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Replication\ReplicationStrategy" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Iterator\MultiBulk __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Response\Iterator\MultiBulk" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Iterator\MultiBulkTuple __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Response\Iterator\MultiBulkTuple" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Transaction\MultiExec __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Transaction\MultiExec" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Transaction\MultiExecState __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Transaction\MultiExecState" />
+      <entry_point TYPE="phpMethod" FQNAME="\Proxy\Adapter\Guzzle\GuzzleAdapter __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Proxy\Adapter\Guzzle\GuzzleAdapter" />
+      <entry_point TYPE="phpMethod" FQNAME="\Proxy\Proxy __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Proxy\Proxy" />
+      <entry_point TYPE="phpMethod" FQNAME="\SimpleSSDB __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\SimpleSSDB" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\SSDB" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB_Response __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\SSDB_Response" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\PhpiredisSocketConnection __destruct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\PhpiredisStreamConnection __destruct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\WebdisConnection __destruct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Iterator\MultiBulk __destruct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Iterator\MultiBulkTuple __destruct" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache __get" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Parameters __get" />
+      <entry_point TYPE="phpMethod" FQNAME="\EventsListener __invoke" />
+      <entry_point TYPE="phpClass" FQNAME="\EventsListener" />
+      <entry_point TYPE="phpMethod" FQNAME="\EventsListener __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Proxy\Filter\FilterInterface __invoke" />
+      <entry_point TYPE="phpClass" FQNAME="\Proxy\Filter\FilterInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Proxy\Filter\RemoveEncodingFilter __invoke" />
+      <entry_point TYPE="phpClass" FQNAME="\Proxy\Filter\RemoveEncodingFilter" />
+      <entry_point TYPE="phpMethod" FQNAME="\Proxy\Filter\RemoveLocationFilter __invoke" />
+      <entry_point TYPE="phpClass" FQNAME="\Proxy\Filter\RemoveLocationFilter" />
+      <entry_point TYPE="phpMethod" FQNAME="\Proxy\Filter\RewriteLocationFilter __invoke" />
+      <entry_point TYPE="phpClass" FQNAME="\Proxy\Filter\RewriteLocationFilter" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\Options __isset" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Configuration\Options" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\Options __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\OptionsInterface __isset" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Configuration\OptionsInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Parameters __isset" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\ParametersInterface __isset" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\ParametersInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache __set" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\MasterSlaveReplication __sleep" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\CompositeStreamConnection __sleep" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Parameters __sleep" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\WebdisConnection __sleep" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor __toString" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\AbstractConnection __toString" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\AbstractConnection" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\AbstractConnection __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\NodeConnectionInterface __toString" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\NodeConnectionInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\WebdisConnection __toString" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Profile\RedisProfile __toString" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Error __toString" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Response\Error" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Error __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Status __toString" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Response\Status" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Status __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB_Response __toString" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\ParamStore __toString" />
+      <entry_point TYPE="phpClass" FQNAME="\yxorP\Http\ParamStore" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\ParamStore __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\PhpiredisSocketConnection __wakeup" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\PhpiredisStreamConnection __wakeup" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\WebdisConnection __wakeup" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Transaction\AbortedMultiExecException" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Transaction\AbortedMultiExecException __construct" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/abstract.php" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\PubSub\AbstractConsumer" />
+      <entry_point TYPE="phpClass" FQNAME="\AbstractPlugin" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/plugin/AbstractPlugin.php" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\AClientInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\NaiveDistributor add" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorp addListener" />
+      <entry_point TYPE="phpClass" FQNAME="\yxorp" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorp __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\Distributor\KetamaRing addNodeToRing" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Factory aggregate" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\Factory" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\FactoryInterface aggregate" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\FactoryInterface" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\AggregateConnectionInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor all" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/apc.php" />
+      <entry_point TYPE="phpClass" FQNAME="\BlockListPlugin" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/plugin/BlockListPlugin.php" />
+      <entry_point TYPE="phpClass" FQNAME="\yxorP\cache\cache" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\cache\cache __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_example" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_example __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\cache_ext_regex" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_driver checkdriver" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_predis checkdriver" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache clean" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB closed" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Configuration\ClusterOption" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\Command" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\CommandInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\AClientInterface connect" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client connect" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ConnectionAuth" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ConnectionEcho" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Pipeline\ConnectionErrorProof" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Configuration\ConnectionFactoryOption" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ConnectionPing" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ConnectionQuit" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ConnectionSelect" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_example connectServer" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Monitor\Consumer" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Monitor\Consumer __construct" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/cookie.php" />
+      <entry_point TYPE="phpClass" FQNAME="\CookiePlugin" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/plugin/CookiePlugin.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\ProcessorChain count" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\PredisCluster count" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster count" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Iterator\MultiBulkIterator count" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Response\Iterator\MultiBulkIterator" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client createPipeline" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client createPubSub" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\PhpiredisSocketConnection createResource" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client createTransaction" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\CursorBasedIterator current" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Collection\Iterator\CursorBasedIterator" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\CursorBasedIterator __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\ListKey current" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Monitor\Consumer current" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\AbstractConsumer current" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/_extensions/predis-1.0/examples/custom_cluster_distributor.php" />
+      <entry_point TYPE="phpClass" FQNAME="\DailyMotionPlugin" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/plugin/DailyMotionPlugin.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\cache\cache debug" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/_extensions/predis-1.0/examples/debuggable_connection.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB decr" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache decrementMulti" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\DispatcherLoop defaultCallback" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\PubSub\DispatcherLoop" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\DispatcherLoop __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\FactoryInterface define" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Profile\Factory define" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Profile\RedisProfile defineCommand" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_ext_regex delete" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache deleteMulti" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\DispatcherLoop detachCallback" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/_extensions/predis-1.0/examples/dispatcher_loop.php" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Cluster\Distributor\DistributorInterface" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/driver.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_driver driver_clean" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_driver driver_delete" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_driver driver_get" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_driver driver_set" />
+      <entry_point TYPE="phpMethod" FQNAME="\cache_driver driver_stats" />
+      <entry_point TYPE="phpClass" FQNAME="\Proxy\Adapter\Dummy\DummyAdapter" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor evalKeys" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/example.php" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Configuration\ExceptionsOption" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Transaction\MultiExec exec" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB exec" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\ClientContextInterface execute" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Pipeline\ConnectionErrorProof executeCluster" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\ClientContextInterface executeCommand" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Pipeline\Pipeline executeCommand" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\PredisCluster executeCommandOnNodes" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Pipeline\Atomic executePipeline" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Pipeline\ConnectionErrorProof executePipeline" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Pipeline\FireAndForget executePipeline" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Pipeline\FireAndForget" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/extensions.php" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/files.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\ClusterOption filter" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\ConnectionFactoryOption filter" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\ExceptionsOption filter" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\OptionInterface filter" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Configuration\OptionInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\PrefixOption filter" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Configuration\PrefixOption" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\ProfileOption filter" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Configuration\ProfileOption" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\ReplicationOption filter" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Configuration\ReplicationOption" />
+      <entry_point TYPE="phpMethod" FQNAME="\Proxy\Proxy filter" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor first" />
+      <entry_point TYPE="phpMethod" FQNAME="\Proxy\Proxy forward" />
+      <entry_point TYPE="phpMethod" FQNAME="\NaiveDistributor get" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\Distributor\DistributorInterface get" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\Distributor\HashRing get" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Transaction\MultiExecState get" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\ParamStore get" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\Distributor\DistributorInterface getByHash" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Session\Handler getClient" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Session\Handler" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Session\Handler __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\PredisCluster getClusterStrategy" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster getClusterStrategy" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Profile\RedisProfile getCommandClass" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Pipeline\Atomic getConnection" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Pipeline\ConnectionErrorProof getConnection" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\MasterSlaveReplication getConnectionById" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\PredisCluster getConnectionById" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster getConnectionById" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\PredisCluster getConnectionByKey" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster getConnectionFactory" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\MasterSlaveReplication getCurrent" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\ReplicationInterface getCurrent" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\Aggregate\ReplicationInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\ClusterOption getDefault" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\ExceptionsOption getDefault" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\OptionInterface getDefault" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\OptionsInterface getDefault" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\PrefixOption getDefault" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Configuration\ProfileOption getDefault" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Profile\Factory getDevelopment" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\RedisStrategy getDistributor" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Cluster\RedisStrategy" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\RedisStrategy __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\EventsListener getEvents" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\ResponseReader getHandler" />
+      <entry_point TYPE="phpMethod" FQNAME="\NaiveDistributor getHashGenerator" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\Distributor\DistributorInterface getHashGenerator" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\Distributor\HashRing getHashGenerator" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache getInfoMulti" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Iterator\MultiBulkTuple getInnerIterator" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\ProcessorChain getIterator" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\PredisCluster getIterator" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster getIterator" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\MasterSlaveReplication getMaster" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\ReplicationInterface getMaster" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Session\Handler getMaxLifeTime" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache getMulti" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\cache\cache getOS" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Status getPayload" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Profile\RedisProfile getProcessor" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\ProcessorChain getProcessors" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\Request getProtocolVersion" />
+      <entry_point TYPE="phpClass" FQNAME="\yxorP\Http\Request" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\Request __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\DispatcherLoop getPubSubConsumer" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\Request getRawBody" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\Request getRawHeaders" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\PhpiredisSocketConnection getReader" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\PhpiredisStreamConnection getReader" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\MasterSlaveReplication getReplicationStrategy" />
+      <entry_point TYPE="phpMethod" FQNAME="\Proxy\Proxy getRequest" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\CompositeProtocolProcessor getRequestSerializer" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\NodeConnectionInterface getResource" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\WebdisConnection getResource" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\CompositeProtocolProcessor getResponseReader" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\ServerEval getScriptHash" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerEval" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\ServerEvalSHA getScriptHash" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerEvalSHA" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\MasterSlaveReplication getSlaves" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\ReplicationInterface getSlaves" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\ClusterStrategy getSupportedCommands" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Transaction\AbortedMultiExecException getTransaction" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\Handler\ResponseHandlerInterface handle" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Protocol\Text\Handler\ResponseHandlerInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\Handler\StreamableMultiBulkResponse handle" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Protocol\Text\Handler\StreamableMultiBulkResponse" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\Distributor\KetamaRing hash" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashDelete" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashExists" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashGet" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashGetAll" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashGetMultiple" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashIncrementBy" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashIncrementByFloat" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashKeys" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashLength" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashScan" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashSet" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashSetMultiple" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashSetPreserve" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HashValues" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB hdecr" />
+      <entry_point TYPE="phpClass" FQNAME="\HeaderRewritePlugin" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/plugin/HeaderRewritePlugin.php" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/helper/Helpers.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB hincr" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache htaccessGen" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HyperLogLogAdd" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HyperLogLogCount" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\HyperLogLogMerge" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB incr" />
+      <entry_point TYPE="phpClass" FQNAME="\IncrementExistingKeysBy" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache incrementMulti" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor interleaved" />
+      <entry_point TYPE="phpClass" FQNAME="\Proxy\Exception\InvalidArgumentException" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client isConnected" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Replication\ReplicationStrategy isDisallowedOperation" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache isExistingDriver" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache isExistingMulti" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache isPHPModule" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Transaction\MultiExecState isReset" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\CursorBasedIterator key" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\ListKey key" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Monitor\Consumer key" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\AbstractConsumer key" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Iterator\MultiBulkIterator key" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyDelete" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyDump" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyExists" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyExpire" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyExpireAt" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyKeys" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyMove" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyPersist" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyPreciseExpire" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyPreciseExpireAt" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyPreciseTimeToLive" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyRandom" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyRename" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyRenamePreserve" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyRestore" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyScan" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeySort" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyTimeToLive" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\KeyType" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListIndex" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListInsert" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListLength" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListPopFirst" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListPopFirstBlocking" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListPopLast" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListPopLastBlocking" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListPopLastPushHead" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListPopLastPushHeadBlocking" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListPushHead" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListPushHeadX" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListPushTail" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListPushTailX" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListRange" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListRemove" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListSet" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ListTrim" />
+      <entry_point TYPE="phpClass" FQNAME="\LogPlugin" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/plugin/LogPlugin.php" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/_extensions/predis-1.0/examples/lua_scripting_abstraction.php" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/memcache.php" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/memcached.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Transaction\MultiExec multi" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB multi" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB multi_hset" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB multi_set" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB multi_zset" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Monitor\Consumer next" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\AbstractConsumer next" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB_Response not_found" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\ProcessorChain offsetExists" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\ProxyEvent offsetExists" />
+      <entry_point TYPE="phpClass" FQNAME="\yxorP\Http\ProxyEvent" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\ProxyEvent __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\ProcessorChain offsetGet" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\ProxyEvent offsetGet" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\ProcessorChain offsetSet" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\ProxyEvent offsetSet" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\ProcessorChain offsetUnset" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\ProxyEvent offsetUnset" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB_Response ok" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster onAskResponse" />
+      <entry_point TYPE="phpMethod" FQNAME="\BlockListPlugin onBeforeRequest" />
+      <entry_point TYPE="phpMethod" FQNAME="\LogPlugin onHeadersReceived" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster onMovedResponse" />
+      <entry_point TYPE="phpClass" FQNAME="\OverridePlugin" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/plugin/OverridePlugin.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\ServerInfo parseAllocationStats" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerInfo" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\ServerClient parseClientList" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerClient" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\AbstractConsumer ping" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/predis.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\ZSetRangeByLex prepareOptions" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetRangeByLex" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\ZSetRangeByScore prepareOptions" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetRangeByScore" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\Response printContent" />
+      <entry_point TYPE="phpClass" FQNAME="\yxorP\Http\Response" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\Http\Response __construct" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor process" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\ProcessorChain process" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\ProcessorInterface process" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\Processor\ProcessorInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\ServerSentinel processMastersOrSlaves" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\PubSubPubsub processNumsub" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Profile\ProfileInterface" />
+      <entry_point TYPE="phpClass" FQNAME="\ProxifyPlugin" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/plugin/ProxifyPlugin.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\AbstractConsumer psubscribe" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\PubSubPublish" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\PubSubPubsub" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\PubSubSubscribe" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\PubSubSubscribeByPattern" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\PubSubUnsubscribe" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\PubSubUnsubscribeByPattern" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client quit" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\ResponseReaderInterface read" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Protocol\ResponseReaderInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\CompositeProtocolProcessor read" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\ResponseReader read" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/redis.php" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Profile\RedisUnstable" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Profile\RedisVersion200" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Profile\RedisVersion220" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Profile\RedisVersion240" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Profile\RedisVersion260" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Profile\RedisVersion280" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Profile\RedisVersion300" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/_extensions/regex.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\NaiveDistributor remove" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\ProcessorChain remove" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\MasterSlaveReplication remove" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster remove" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\AggregateConnectionInterface remove" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\PredisCluster removeById" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster removeById" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/_extensions/predis-1.0/examples/replication_complex.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB request" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Protocol\RequestSerializerInterface" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\CursorBasedIterator rewind" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\ListKey rewind" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Monitor\Consumer rewind" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\AbstractConsumer rewind" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\Iterator\MultiBulkIterator rewind" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache search" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\RequestSerializerInterface serialize" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerBackgroundRewriteAOF" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerBackgroundSave" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerCommand" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerConfig" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerDatabaseSize" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Response\ServerException" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerFlushAll" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerFlushDatabase" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerInfoV26x" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerLastSave" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerMonitor" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerObject" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerSave" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerScript" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerSentinel" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerShutdown" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerSlaveOf" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerSlowlog" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ServerTime" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Transaction\MultiExecState set" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB set_timeout" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetAdd" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Command setArguments" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\CommandInterface setArguments" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetCardinality" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\ClusterStrategy setCommandHandler" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor setCommandHandler" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Replication\ReplicationStrategy setCommandReadOnly" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster setDefaultParameters" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetDifference" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetDifferenceStore" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\ResponseReader setHandler" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetIntersection" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetIntersectionStore" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetIsMember" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetMembers" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetMove" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache setMulti" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorp setOutputBuffering" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetPop" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor setPrefix" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetRandomMember" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetRemove" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetScan" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetUnion" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\SetUnionStore" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorP\cache\cache setup" />
+      <entry_point TYPE="phpClass" FQNAME="\SimpleDebuggableConnection" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor skipFirst" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor skipLast" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor sort" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/sqlite.php" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/_extensions/SSDB.php" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/ssdb.php" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Connection\StreamConnection" />
+      <entry_point TYPE="phpClass" FQNAME="\StreamPlugin" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/plugin/StreamPlugin.php" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringAppend" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringBitCount" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringBitOp" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringBitPos" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringDecrement" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringDecrementBy" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringGet" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringGetBit" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringGetMultiple" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringGetRange" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringGetSet" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringIncrement" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringIncrementBy" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringIncrementByFloat" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringPreciseSetExpire" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringSet" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringSetBit" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringSetExpire" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringSetMultiple" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringSetMultiplePreserve" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringSetPreserve" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringSetRange" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringStrlen" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\StringSubstr" />
+      <entry_point TYPE="phpMethod" FQNAME="\AbstractPlugin subscribe" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\DispatcherLoop subscriptionCallback" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache systemInfo" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\PhpiredisStreamConnection tcpStreamInitializer" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\StreamConnection tcpStreamInitializer" />
+      <entry_point TYPE="phpMethod" FQNAME="\Proxy\Proxy to" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Parameters toArray" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\ParametersInterface toArray" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Response\ServerException toErrorResponse" />
+      <entry_point TYPE="phpMethod" FQNAME="\BaseCache touchMulti" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client transaction" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\TransactionDiscard" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\TransactionExec" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\TransactionMulti" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\TransactionUnwatch" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\TransactionWatch" />
+      <entry_point TYPE="phpClass" FQNAME="\TwitterPlugin" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/plugin/TwitterPlugin.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Factory undefine" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\FactoryInterface undefine" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\StreamConnection unixStreamInitializer" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Transaction\MultiExec unwatch" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Connection\Aggregate\RedisCluster useClusterSlots" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\ProtocolProcessor useIterableMultibulk" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\CursorBasedIterator valid" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\ListKey valid" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Monitor\Consumer valid" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/wincache.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Cluster\Distributor\KetamaRing wrapAroundStrategy" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Protocol\Text\CompositeProtocolProcessor write" />
+      <entry_point TYPE="phpMethod" FQNAME="\yxorp write_callback" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cache/drivers/xcache.php" />
+      <entry_point TYPE="phpClass" FQNAME="\YoutubePlugin" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/plugin/YoutubePlugin.php" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB zadd" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB zdecr" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB zincr" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB zRevRange" />
+      <entry_point TYPE="phpMethod" FQNAME="\SSDB zRevRank" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetAdd" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetCardinality" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetCount" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetIncrementBy" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetIntersectionStore" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetLexCount" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetRange" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetRank" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetRemove" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetRemoveRangeByLex" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetRemoveRangeByRank" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetRemoveRangeByScore" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetReverseRange" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetReverseRangeByScore" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetReverseRank" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetScan" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetScore" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Command\Processor\KeyPrefixProcessor zsetStore" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Command\ZSetUnionStore" />
+      <entry_point TYPE="phpFunction" FQNAME="\connectServer" />
+      <entry_point TYPE="phpFunction" FQNAME="\db" />
+      <entry_point TYPE="phpFunction" FQNAME="\deleteRow" />
+      <entry_point TYPE="phpFunction" FQNAME="\driver_clean" />
+      <entry_point TYPE="phpFunction" FQNAME="\driver_delete" />
+      <entry_point TYPE="phpFunction" FQNAME="\driver_get" />
+      <entry_point TYPE="phpFunction" FQNAME="\driver_isExisting" />
+      <entry_point TYPE="phpFunction" FQNAME="\driver_stats" />
+      <entry_point TYPE="phpFunction" FQNAME="\indexing" />
+      <entry_point TYPE="phpFunction" FQNAME="\initDB" />
+      <entry_point TYPE="phpFunction" FQNAME="\initIndexing" />
+      <entry_point TYPE="phpFunction" FQNAME="\isExpired" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Cluster\Distributor\get" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Cluster\Distributor\getByHash" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Cluster\Distributor\getHashGenerator" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Cluster\Distributor\getNodeHash" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Cluster\Distributor\getSlot" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Cluster\Distributor\hash" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Cluster\Distributor\wrapAroundStrategy" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\getConnection" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\handle" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Protocol\Text\getRequestSerializer" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Protocol\Text\getResponseReader" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Protocol\Text\read" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Protocol\Text\setRequestSerializer" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Protocol\Text\setResponseReader" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\Protocol\Text\write" />
+      <entry_point TYPE="phpFunction" FQNAME="\Predis\shouldResetConnection" />
+      <entry_point TYPE="phpMethod" FQNAME="\HashMultipleGetAll getScript" />
+      <entry_point TYPE="phpClass" FQNAME="\HashMultipleGetAll" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\HashKey __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Collection\Iterator\HashKey" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\Keyspace __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Collection\Iterator\Keyspace" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\SetKey __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Collection\Iterator\SetKey" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\SortedSetKey __construct" />
+      <entry_point TYPE="phpClass" FQNAME="\Predis\Collection\Iterator\SortedSetKey" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\DispatcherLoop attachCallback" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\HashKey executeCommand" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\Keyspace executeCommand" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\SetKey executeCommand" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\SortedSetKey executeCommand" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client executeRaw" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\HashKey extractNext" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Collection\Iterator\SortedSetKey extractNext" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client getClientFor" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client monitor" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client pipeline" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Client pubSubLoop" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Session\Handler register" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\DispatcherLoop run" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\Replication\ReplicationStrategy setScriptReadOnly" />
+      <entry_point TYPE="phpMethod" FQNAME="\Predis\PubSub\DispatcherLoop stop" />
+    </entry_point>
+    <pattern value="\BaseCache" member="__call" />
+    <pattern value="\BaseCache" />
+    <pattern value="\cache_extensions" member="__call" />
+    <pattern value="\cache_extensions" />
+    <pattern value="\Predis\ClientContextInterface" member="__call" />
+    <pattern value="\Predis\ClientContextInterface" />
+    <pattern value="\Predis\Pipeline\Pipeline" member="__call" />
+    <pattern value="\Predis\Pipeline\Pipeline" />
+    <pattern value="\Predis\Pipeline\Pipeline" member="__construct" />
+    <pattern value="\cache_apc" member="__construct" />
+    <pattern value="\cache_apc" />
+    <pattern value="\cache_cookie" member="__construct" />
+    <pattern value="\cache_cookie" />
+    <pattern value="\cache_driver" member="__construct" />
+    <pattern value="\cache_driver" />
+    <pattern value="\cache_files" member="__construct" />
+    <pattern value="\cache_files" />
+    <pattern value="\cache_memcache" member="__construct" />
+    <pattern value="\cache_memcache" />
+    <pattern value="\cache_memcached" member="__construct" />
+    <pattern value="\cache_memcached" />
+    <pattern value="\cache_predis" member="__construct" />
+    <pattern value="\cache_predis" />
+    <pattern value="\cache_redis" member="__construct" />
+    <pattern value="\cache_redis" />
+    <pattern value="\cache_sqlite" member="__construct" />
+    <pattern value="\cache_sqlite" />
+    <pattern value="\cache_ssdb" member="__construct" />
+    <pattern value="\cache_ssdb" />
+    <pattern value="\cache_wincache" member="__construct" />
+    <pattern value="\cache_wincache" />
+    <pattern value="\cache_xcache" member="__construct" />
+    <pattern value="\cache_xcache" />
+    <pattern value="\NaiveDistributor" member="__construct" />
+    <pattern value="\NaiveDistributor" />
+    <pattern value="\Predis\Client" member="__construct" />
+    <pattern value="\Predis\Client" />
+    <pattern value="\Predis\Cluster\ClusterStrategy" member="__construct" />
+    <pattern value="\Predis\Cluster\ClusterStrategy" />
+    <pattern value="\Predis\Cluster\Distributor\HashRing" member="__construct" />
+    <pattern value="\Predis\Cluster\Distributor\HashRing" />
+    <pattern value="\Predis\Cluster\Distributor\KetamaRing" member="__construct" />
+    <pattern value="\Predis\Cluster\Distributor\KetamaRing" />
+    <pattern value="\Predis\Collection\Iterator\ListKey" member="__construct" />
+    <pattern value="\Predis\Collection\Iterator\ListKey" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="__construct" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" />
+    <pattern value="\Predis\Command\Processor\ProcessorChain" member="__construct" />
+    <pattern value="\Predis\Command\Processor\ProcessorChain" />
+    <pattern value="\Predis\Connection\Aggregate\MasterSlaveReplication" member="__construct" />
+    <pattern value="\Predis\Connection\Aggregate\MasterSlaveReplication" />
+    <pattern value="\Predis\Connection\Aggregate\PredisCluster" member="__construct" />
+    <pattern value="\Predis\Connection\Aggregate\PredisCluster" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="__construct" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" />
+    <pattern value="\Predis\Connection\CompositeStreamConnection" member="__construct" />
+    <pattern value="\Predis\Connection\CompositeStreamConnection" />
+    <pattern value="\Predis\Connection\Parameters" member="__construct" />
+    <pattern value="\Predis\Connection\Parameters" />
+    <pattern value="\Predis\Connection\PhpiredisSocketConnection" member="__construct" />
+    <pattern value="\Predis\Connection\PhpiredisSocketConnection" />
+    <pattern value="\Predis\Connection\PhpiredisStreamConnection" member="__construct" />
+    <pattern value="\Predis\Connection\PhpiredisStreamConnection" />
+    <pattern value="\Predis\Connection\WebdisConnection" member="__construct" />
+    <pattern value="\Predis\Connection\WebdisConnection" />
+    <pattern value="\Predis\Pipeline\Atomic" member="__construct" />
+    <pattern value="\Predis\Pipeline\Atomic" />
+    <pattern value="\Predis\Profile\Factory" member="__construct" />
+    <pattern value="\Predis\Profile\Factory" />
+    <pattern value="\Predis\Profile\RedisProfile" member="__construct" />
+    <pattern value="\Predis\Profile\RedisProfile" />
+    <pattern value="\Predis\Protocol\Text\CompositeProtocolProcessor" member="__construct" />
+    <pattern value="\Predis\Protocol\Text\CompositeProtocolProcessor" />
+    <pattern value="\Predis\Protocol\Text\ProtocolProcessor" member="__construct" />
+    <pattern value="\Predis\Protocol\Text\ProtocolProcessor" />
+    <pattern value="\Predis\Protocol\Text\ResponseReader" member="__construct" />
+    <pattern value="\Predis\Protocol\Text\ResponseReader" />
+    <pattern value="\Predis\Replication\ReplicationStrategy" member="__construct" />
+    <pattern value="\Predis\Replication\ReplicationStrategy" />
+    <pattern value="\Predis\Response\Iterator\MultiBulk" member="__construct" />
+    <pattern value="\Predis\Response\Iterator\MultiBulk" />
+    <pattern value="\Predis\Response\Iterator\MultiBulkTuple" member="__construct" />
+    <pattern value="\Predis\Response\Iterator\MultiBulkTuple" />
+    <pattern value="\Predis\Transaction\MultiExec" member="__construct" />
+    <pattern value="\Predis\Transaction\MultiExec" />
+    <pattern value="\Predis\Transaction\MultiExecState" member="__construct" />
+    <pattern value="\Predis\Transaction\MultiExecState" />
+    <pattern value="\Proxy\Adapter\Guzzle\GuzzleAdapter" member="__construct" />
+    <pattern value="\Proxy\Adapter\Guzzle\GuzzleAdapter" />
+    <pattern value="\Proxy\Proxy" member="__construct" />
+    <pattern value="\Proxy\Proxy" />
+    <pattern value="\SimpleSSDB" member="__construct" />
+    <pattern value="\SimpleSSDB" />
+    <pattern value="\SSDB" member="__construct" />
+    <pattern value="\SSDB" />
+    <pattern value="\SSDB_Response" member="__construct" />
+    <pattern value="\SSDB_Response" />
+    <pattern value="\Predis\Connection\PhpiredisSocketConnection" member="__destruct" />
+    <pattern value="\Predis\Connection\PhpiredisStreamConnection" member="__destruct" />
+    <pattern value="\Predis\Connection\WebdisConnection" member="__destruct" />
+    <pattern value="\Predis\Response\Iterator\MultiBulk" member="__destruct" />
+    <pattern value="\Predis\Response\Iterator\MultiBulkTuple" member="__destruct" />
+    <pattern value="\BaseCache" member="__get" />
+    <pattern value="\Predis\Connection\Parameters" member="__get" />
+    <pattern value="\EventsListener" member="__invoke" />
+    <pattern value="\EventsListener" />
+    <pattern value="\EventsListener" member="__construct" />
+    <pattern value="\Proxy\Filter\FilterInterface" member="__invoke" />
+    <pattern value="\Proxy\Filter\FilterInterface" />
+    <pattern value="\Proxy\Filter\RemoveEncodingFilter" member="__invoke" />
+    <pattern value="\Proxy\Filter\RemoveEncodingFilter" />
+    <pattern value="\Proxy\Filter\RemoveLocationFilter" member="__invoke" />
+    <pattern value="\Proxy\Filter\RemoveLocationFilter" />
+    <pattern value="\Proxy\Filter\RewriteLocationFilter" member="__invoke" />
+    <pattern value="\Proxy\Filter\RewriteLocationFilter" />
+    <pattern value="\Predis\Configuration\Options" member="__isset" />
+    <pattern value="\Predis\Configuration\Options" />
+    <pattern value="\Predis\Configuration\Options" member="__construct" />
+    <pattern value="\Predis\Configuration\OptionsInterface" member="__isset" />
+    <pattern value="\Predis\Configuration\OptionsInterface" />
+    <pattern value="\Predis\Connection\Parameters" member="__isset" />
+    <pattern value="\Predis\Connection\ParametersInterface" member="__isset" />
+    <pattern value="\Predis\Connection\ParametersInterface" />
+    <pattern value="\BaseCache" member="__set" />
+    <pattern value="\Predis\Connection\Aggregate\MasterSlaveReplication" member="__sleep" />
+    <pattern value="\Predis\Connection\CompositeStreamConnection" member="__sleep" />
+    <pattern value="\Predis\Connection\Parameters" member="__sleep" />
+    <pattern value="\Predis\Connection\WebdisConnection" member="__sleep" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="__toString" />
+    <pattern value="\Predis\Connection\AbstractConnection" member="__toString" />
+    <pattern value="\Predis\Connection\AbstractConnection" />
+    <pattern value="\Predis\Connection\AbstractConnection" member="__construct" />
+    <pattern value="\Predis\Connection\NodeConnectionInterface" member="__toString" />
+    <pattern value="\Predis\Connection\NodeConnectionInterface" />
+    <pattern value="\Predis\Connection\WebdisConnection" member="__toString" />
+    <pattern value="\Predis\Profile\RedisProfile" member="__toString" />
+    <pattern value="\Predis\Response\Error" member="__toString" />
+    <pattern value="\Predis\Response\Error" />
+    <pattern value="\Predis\Response\Error" member="__construct" />
+    <pattern value="\Predis\Response\Status" member="__toString" />
+    <pattern value="\Predis\Response\Status" />
+    <pattern value="\Predis\Response\Status" member="__construct" />
+    <pattern value="\SSDB_Response" member="__toString" />
+    <pattern value="\yxorP\Http\ParamStore" member="__toString" />
+    <pattern value="\yxorP\Http\ParamStore" />
+    <pattern value="\yxorP\Http\ParamStore" member="__construct" />
+    <pattern value="\Predis\Connection\PhpiredisSocketConnection" member="__wakeup" />
+    <pattern value="\Predis\Connection\PhpiredisStreamConnection" member="__wakeup" />
+    <pattern value="\Predis\Connection\WebdisConnection" member="__wakeup" />
+    <pattern value="\Predis\Transaction\AbortedMultiExecException" />
+    <pattern value="\Predis\Transaction\AbortedMultiExecException" member="__construct" />
+    <pattern value="\Predis\PubSub\AbstractConsumer" />
+    <pattern value="\AbstractPlugin" />
+    <pattern value="\Predis\AClientInterface" />
+    <pattern value="\NaiveDistributor" member="add" />
+    <pattern value="\yxorp" member="addListener" />
+    <pattern value="\yxorp" />
+    <pattern value="\yxorp" member="__construct" />
+    <pattern value="\Predis\Cluster\Distributor\KetamaRing" member="addNodeToRing" />
+    <pattern value="\Predis\Connection\Factory" member="aggregate" />
+    <pattern value="\Predis\Connection\Factory" />
+    <pattern value="\Predis\Connection\FactoryInterface" member="aggregate" />
+    <pattern value="\Predis\Connection\FactoryInterface" />
+    <pattern value="\Predis\Connection\AggregateConnectionInterface" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="all" />
+    <pattern value="\BlockListPlugin" />
+    <pattern value="\yxorP\cache\cache" />
+    <pattern value="\yxorP\cache\cache" member="__construct" />
+    <pattern value="\cache_example" />
+    <pattern value="\cache_example" member="__construct" />
+    <pattern value="\cache_ext_regex" />
+    <pattern value="\cache_driver" member="checkdriver" />
+    <pattern value="\cache_predis" member="checkdriver" />
+    <pattern value="\BaseCache" member="clean" />
+    <pattern value="\SSDB" member="closed" />
+    <pattern value="\Predis\Configuration\ClusterOption" />
+    <pattern value="\Predis\Command\Command" />
+    <pattern value="\Predis\Command\CommandInterface" />
+    <pattern value="\Predis\AClientInterface" member="connect" />
+    <pattern value="\Predis\Client" member="connect" />
+    <pattern value="\Predis\Command\ConnectionAuth" />
+    <pattern value="\Predis\Command\ConnectionEcho" />
+    <pattern value="\Predis\Pipeline\ConnectionErrorProof" />
+    <pattern value="\Predis\Configuration\ConnectionFactoryOption" />
+    <pattern value="\Predis\Command\ConnectionPing" />
+    <pattern value="\Predis\Command\ConnectionQuit" />
+    <pattern value="\Predis\Command\ConnectionSelect" />
+    <pattern value="\cache_example" member="connectServer" />
+    <pattern value="\Predis\Monitor\Consumer" />
+    <pattern value="\Predis\Monitor\Consumer" member="__construct" />
+    <pattern value="\CookiePlugin" />
+    <pattern value="\Predis\Command\Processor\ProcessorChain" member="count" />
+    <pattern value="\Predis\Connection\Aggregate\PredisCluster" member="count" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="count" />
+    <pattern value="\Predis\Response\Iterator\MultiBulkIterator" member="count" />
+    <pattern value="\Predis\Response\Iterator\MultiBulkIterator" />
+    <pattern value="\Predis\Client" member="createPipeline" />
+    <pattern value="\Predis\Client" member="createPubSub" />
+    <pattern value="\Predis\Connection\PhpiredisSocketConnection" member="createResource" />
+    <pattern value="\Predis\Client" member="createTransaction" />
+    <pattern value="\Predis\Collection\Iterator\CursorBasedIterator" member="current" />
+    <pattern value="\Predis\Collection\Iterator\CursorBasedIterator" />
+    <pattern value="\Predis\Collection\Iterator\CursorBasedIterator" member="__construct" />
+    <pattern value="\Predis\Collection\Iterator\ListKey" member="current" />
+    <pattern value="\Predis\Monitor\Consumer" member="current" />
+    <pattern value="\Predis\PubSub\AbstractConsumer" member="current" />
+    <pattern value="\DailyMotionPlugin" />
+    <pattern value="\yxorP\cache\cache" member="debug" />
+    <pattern value="\SSDB" member="decr" />
+    <pattern value="\BaseCache" member="decrementMulti" />
+    <pattern value="\Predis\PubSub\DispatcherLoop" member="defaultCallback" />
+    <pattern value="\Predis\PubSub\DispatcherLoop" />
+    <pattern value="\Predis\PubSub\DispatcherLoop" member="__construct" />
+    <pattern value="\Predis\Connection\FactoryInterface" member="define" />
+    <pattern value="\Predis\Profile\Factory" member="define" />
+    <pattern value="\Predis\Profile\RedisProfile" member="defineCommand" />
+    <pattern value="\cache_ext_regex" member="delete" />
+    <pattern value="\BaseCache" member="deleteMulti" />
+    <pattern value="\Predis\PubSub\DispatcherLoop" member="detachCallback" />
+    <pattern value="\Predis\Cluster\Distributor\DistributorInterface" />
+    <pattern value="\cache_driver" member="driver_clean" />
+    <pattern value="\cache_driver" member="driver_delete" />
+    <pattern value="\cache_driver" member="driver_get" />
+    <pattern value="\cache_driver" member="driver_set" />
+    <pattern value="\cache_driver" member="driver_stats" />
+    <pattern value="\Proxy\Adapter\Dummy\DummyAdapter" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="evalKeys" />
+    <pattern value="\Predis\Configuration\ExceptionsOption" />
+    <pattern value="\Predis\Transaction\MultiExec" member="exec" />
+    <pattern value="\SSDB" member="exec" />
+    <pattern value="\Predis\ClientContextInterface" member="execute" />
+    <pattern value="\Predis\Pipeline\ConnectionErrorProof" member="executeCluster" />
+    <pattern value="\Predis\ClientContextInterface" member="executeCommand" />
+    <pattern value="\Predis\Pipeline\Pipeline" member="executeCommand" />
+    <pattern value="\Predis\Connection\Aggregate\PredisCluster" member="executeCommandOnNodes" />
+    <pattern value="\Predis\Pipeline\Atomic" member="executePipeline" />
+    <pattern value="\Predis\Pipeline\ConnectionErrorProof" member="executePipeline" />
+    <pattern value="\Predis\Pipeline\FireAndForget" member="executePipeline" />
+    <pattern value="\Predis\Pipeline\FireAndForget" />
+    <pattern value="\Predis\Configuration\ClusterOption" member="filter" />
+    <pattern value="\Predis\Configuration\ConnectionFactoryOption" member="filter" />
+    <pattern value="\Predis\Configuration\ExceptionsOption" member="filter" />
+    <pattern value="\Predis\Configuration\OptionInterface" member="filter" />
+    <pattern value="\Predis\Configuration\OptionInterface" />
+    <pattern value="\Predis\Configuration\PrefixOption" member="filter" />
+    <pattern value="\Predis\Configuration\PrefixOption" />
+    <pattern value="\Predis\Configuration\ProfileOption" member="filter" />
+    <pattern value="\Predis\Configuration\ProfileOption" />
+    <pattern value="\Predis\Configuration\ReplicationOption" member="filter" />
+    <pattern value="\Predis\Configuration\ReplicationOption" />
+    <pattern value="\Proxy\Proxy" member="filter" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="first" />
+    <pattern value="\Proxy\Proxy" member="forward" />
+    <pattern value="\NaiveDistributor" member="get" />
+    <pattern value="\Predis\Cluster\Distributor\DistributorInterface" member="get" />
+    <pattern value="\Predis\Cluster\Distributor\HashRing" member="get" />
+    <pattern value="\Predis\Transaction\MultiExecState" member="get" />
+    <pattern value="\yxorP\Http\ParamStore" member="get" />
+    <pattern value="\Predis\Cluster\Distributor\DistributorInterface" member="getByHash" />
+    <pattern value="\Predis\Session\Handler" member="getClient" />
+    <pattern value="\Predis\Session\Handler" />
+    <pattern value="\Predis\Session\Handler" member="__construct" />
+    <pattern value="\Predis\Connection\Aggregate\PredisCluster" member="getClusterStrategy" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="getClusterStrategy" />
+    <pattern value="\Predis\Profile\RedisProfile" member="getCommandClass" />
+    <pattern value="\Predis\Pipeline\Atomic" member="getConnection" />
+    <pattern value="\Predis\Pipeline\ConnectionErrorProof" member="getConnection" />
+    <pattern value="\Predis\Connection\Aggregate\MasterSlaveReplication" member="getConnectionById" />
+    <pattern value="\Predis\Connection\Aggregate\PredisCluster" member="getConnectionById" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="getConnectionById" />
+    <pattern value="\Predis\Connection\Aggregate\PredisCluster" member="getConnectionByKey" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="getConnectionFactory" />
+    <pattern value="\Predis\Connection\Aggregate\MasterSlaveReplication" member="getCurrent" />
+    <pattern value="\Predis\Connection\Aggregate\ReplicationInterface" member="getCurrent" />
+    <pattern value="\Predis\Connection\Aggregate\ReplicationInterface" />
+    <pattern value="\Predis\Configuration\ClusterOption" member="getDefault" />
+    <pattern value="\Predis\Configuration\ExceptionsOption" member="getDefault" />
+    <pattern value="\Predis\Configuration\OptionInterface" member="getDefault" />
+    <pattern value="\Predis\Configuration\OptionsInterface" member="getDefault" />
+    <pattern value="\Predis\Configuration\PrefixOption" member="getDefault" />
+    <pattern value="\Predis\Configuration\ProfileOption" member="getDefault" />
+    <pattern value="\Predis\Profile\Factory" member="getDevelopment" />
+    <pattern value="\Predis\Cluster\RedisStrategy" member="getDistributor" />
+    <pattern value="\Predis\Cluster\RedisStrategy" />
+    <pattern value="\Predis\Cluster\RedisStrategy" member="__construct" />
+    <pattern value="\EventsListener" member="getEvents" />
+    <pattern value="\Predis\Protocol\Text\ResponseReader" member="getHandler" />
+    <pattern value="\NaiveDistributor" member="getHashGenerator" />
+    <pattern value="\Predis\Cluster\Distributor\DistributorInterface" member="getHashGenerator" />
+    <pattern value="\Predis\Cluster\Distributor\HashRing" member="getHashGenerator" />
+    <pattern value="\BaseCache" member="getInfoMulti" />
+    <pattern value="\Predis\Response\Iterator\MultiBulkTuple" member="getInnerIterator" />
+    <pattern value="\Predis\Command\Processor\ProcessorChain" member="getIterator" />
+    <pattern value="\Predis\Connection\Aggregate\PredisCluster" member="getIterator" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="getIterator" />
+    <pattern value="\Predis\Connection\Aggregate\MasterSlaveReplication" member="getMaster" />
+    <pattern value="\Predis\Connection\Aggregate\ReplicationInterface" member="getMaster" />
+    <pattern value="\Predis\Session\Handler" member="getMaxLifeTime" />
+    <pattern value="\BaseCache" member="getMulti" />
+    <pattern value="\yxorP\cache\cache" member="getOS" />
+    <pattern value="\Predis\Response\Status" member="getPayload" />
+    <pattern value="\Predis\Profile\RedisProfile" member="getProcessor" />
+    <pattern value="\Predis\Command\Processor\ProcessorChain" member="getProcessors" />
+    <pattern value="\yxorP\Http\Request" member="getProtocolVersion" />
+    <pattern value="\yxorP\Http\Request" />
+    <pattern value="\yxorP\Http\Request" member="__construct" />
+    <pattern value="\Predis\PubSub\DispatcherLoop" member="getPubSubConsumer" />
+    <pattern value="\yxorP\Http\Request" member="getRawBody" />
+    <pattern value="\yxorP\Http\Request" member="getRawHeaders" />
+    <pattern value="\Predis\Connection\PhpiredisSocketConnection" member="getReader" />
+    <pattern value="\Predis\Connection\PhpiredisStreamConnection" member="getReader" />
+    <pattern value="\Predis\Connection\Aggregate\MasterSlaveReplication" member="getReplicationStrategy" />
+    <pattern value="\Proxy\Proxy" member="getRequest" />
+    <pattern value="\Predis\Protocol\Text\CompositeProtocolProcessor" member="getRequestSerializer" />
+    <pattern value="\Predis\Connection\NodeConnectionInterface" member="getResource" />
+    <pattern value="\Predis\Connection\WebdisConnection" member="getResource" />
+    <pattern value="\Predis\Protocol\Text\CompositeProtocolProcessor" member="getResponseReader" />
+    <pattern value="\Predis\Command\ServerEval" member="getScriptHash" />
+    <pattern value="\Predis\Command\ServerEval" />
+    <pattern value="\Predis\Command\ServerEvalSHA" member="getScriptHash" />
+    <pattern value="\Predis\Command\ServerEvalSHA" />
+    <pattern value="\Predis\Connection\Aggregate\MasterSlaveReplication" member="getSlaves" />
+    <pattern value="\Predis\Connection\Aggregate\ReplicationInterface" member="getSlaves" />
+    <pattern value="\Predis\Cluster\ClusterStrategy" member="getSupportedCommands" />
+    <pattern value="\Predis\Transaction\AbortedMultiExecException" member="getTransaction" />
+    <pattern value="\Predis\Protocol\Text\Handler\ResponseHandlerInterface" member="handle" />
+    <pattern value="\Predis\Protocol\Text\Handler\ResponseHandlerInterface" />
+    <pattern value="\Predis\Protocol\Text\Handler\StreamableMultiBulkResponse" member="handle" />
+    <pattern value="\Predis\Protocol\Text\Handler\StreamableMultiBulkResponse" />
+    <pattern value="\Predis\Cluster\Distributor\KetamaRing" member="hash" />
+    <pattern value="\Predis\Command\HashDelete" />
+    <pattern value="\Predis\Command\HashExists" />
+    <pattern value="\Predis\Command\HashGet" />
+    <pattern value="\Predis\Command\HashGetAll" />
+    <pattern value="\Predis\Command\HashGetMultiple" />
+    <pattern value="\Predis\Command\HashIncrementBy" />
+    <pattern value="\Predis\Command\HashIncrementByFloat" />
+    <pattern value="\Predis\Command\HashKeys" />
+    <pattern value="\Predis\Command\HashLength" />
+    <pattern value="\Predis\Command\HashScan" />
+    <pattern value="\Predis\Command\HashSet" />
+    <pattern value="\Predis\Command\HashSetMultiple" />
+    <pattern value="\Predis\Command\HashSetPreserve" />
+    <pattern value="\Predis\Command\HashValues" />
+    <pattern value="\SSDB" member="hdecr" />
+    <pattern value="\HeaderRewritePlugin" />
+    <pattern value="\SSDB" member="hincr" />
+    <pattern value="\BaseCache" member="htaccessGen" />
+    <pattern value="\Predis\Command\HyperLogLogAdd" />
+    <pattern value="\Predis\Command\HyperLogLogCount" />
+    <pattern value="\Predis\Command\HyperLogLogMerge" />
+    <pattern value="\SSDB" member="incr" />
+    <pattern value="\IncrementExistingKeysBy" />
+    <pattern value="\BaseCache" member="incrementMulti" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="interleaved" />
+    <pattern value="\Proxy\Exception\InvalidArgumentException" />
+    <pattern value="\Predis\Client" member="isConnected" />
+    <pattern value="\Predis\Replication\ReplicationStrategy" member="isDisallowedOperation" />
+    <pattern value="\BaseCache" member="isExistingDriver" />
+    <pattern value="\BaseCache" member="isExistingMulti" />
+    <pattern value="\BaseCache" member="isPHPModule" />
+    <pattern value="\Predis\Transaction\MultiExecState" member="isReset" />
+    <pattern value="\Predis\Collection\Iterator\CursorBasedIterator" member="key" />
+    <pattern value="\Predis\Collection\Iterator\ListKey" member="key" />
+    <pattern value="\Predis\Monitor\Consumer" member="key" />
+    <pattern value="\Predis\PubSub\AbstractConsumer" member="key" />
+    <pattern value="\Predis\Response\Iterator\MultiBulkIterator" member="key" />
+    <pattern value="\Predis\Command\KeyDelete" />
+    <pattern value="\Predis\Command\KeyDump" />
+    <pattern value="\Predis\Command\KeyExists" />
+    <pattern value="\Predis\Command\KeyExpire" />
+    <pattern value="\Predis\Command\KeyExpireAt" />
+    <pattern value="\Predis\Command\KeyKeys" />
+    <pattern value="\Predis\Command\KeyMove" />
+    <pattern value="\Predis\Command\KeyPersist" />
+    <pattern value="\Predis\Command\KeyPreciseExpire" />
+    <pattern value="\Predis\Command\KeyPreciseExpireAt" />
+    <pattern value="\Predis\Command\KeyPreciseTimeToLive" />
+    <pattern value="\Predis\Command\KeyRandom" />
+    <pattern value="\Predis\Command\KeyRename" />
+    <pattern value="\Predis\Command\KeyRenamePreserve" />
+    <pattern value="\Predis\Command\KeyRestore" />
+    <pattern value="\Predis\Command\KeyScan" />
+    <pattern value="\Predis\Command\KeySort" />
+    <pattern value="\Predis\Command\KeyTimeToLive" />
+    <pattern value="\Predis\Command\KeyType" />
+    <pattern value="\Predis\Command\ListIndex" />
+    <pattern value="\Predis\Command\ListInsert" />
+    <pattern value="\Predis\Command\ListLength" />
+    <pattern value="\Predis\Command\ListPopFirst" />
+    <pattern value="\Predis\Command\ListPopFirstBlocking" />
+    <pattern value="\Predis\Command\ListPopLast" />
+    <pattern value="\Predis\Command\ListPopLastBlocking" />
+    <pattern value="\Predis\Command\ListPopLastPushHead" />
+    <pattern value="\Predis\Command\ListPopLastPushHeadBlocking" />
+    <pattern value="\Predis\Command\ListPushHead" />
+    <pattern value="\Predis\Command\ListPushHeadX" />
+    <pattern value="\Predis\Command\ListPushTail" />
+    <pattern value="\Predis\Command\ListPushTailX" />
+    <pattern value="\Predis\Command\ListRange" />
+    <pattern value="\Predis\Command\ListRemove" />
+    <pattern value="\Predis\Command\ListSet" />
+    <pattern value="\Predis\Command\ListTrim" />
+    <pattern value="\LogPlugin" />
+    <pattern value="\Predis\Transaction\MultiExec" member="multi" />
+    <pattern value="\SSDB" member="multi" />
+    <pattern value="\SSDB" member="multi_hset" />
+    <pattern value="\SSDB" member="multi_set" />
+    <pattern value="\SSDB" member="multi_zset" />
+    <pattern value="\Predis\Monitor\Consumer" member="next" />
+    <pattern value="\Predis\PubSub\AbstractConsumer" member="next" />
+    <pattern value="\SSDB_Response" member="not_found" />
+    <pattern value="\Predis\Command\Processor\ProcessorChain" member="offsetExists" />
+    <pattern value="\yxorP\Http\ProxyEvent" member="offsetExists" />
+    <pattern value="\yxorP\Http\ProxyEvent" />
+    <pattern value="\yxorP\Http\ProxyEvent" member="__construct" />
+    <pattern value="\Predis\Command\Processor\ProcessorChain" member="offsetGet" />
+    <pattern value="\yxorP\Http\ProxyEvent" member="offsetGet" />
+    <pattern value="\Predis\Command\Processor\ProcessorChain" member="offsetSet" />
+    <pattern value="\yxorP\Http\ProxyEvent" member="offsetSet" />
+    <pattern value="\Predis\Command\Processor\ProcessorChain" member="offsetUnset" />
+    <pattern value="\yxorP\Http\ProxyEvent" member="offsetUnset" />
+    <pattern value="\SSDB_Response" member="ok" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="onAskResponse" />
+    <pattern value="\BlockListPlugin" member="onBeforeRequest" />
+    <pattern value="\LogPlugin" member="onHeadersReceived" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="onMovedResponse" />
+    <pattern value="\OverridePlugin" />
+    <pattern value="\Predis\Command\ServerInfo" member="parseAllocationStats" />
+    <pattern value="\Predis\Command\ServerInfo" />
+    <pattern value="\Predis\Command\ServerClient" member="parseClientList" />
+    <pattern value="\Predis\Command\ServerClient" />
+    <pattern value="\Predis\PubSub\AbstractConsumer" member="ping" />
+    <pattern value="\Predis\Command\ZSetRangeByLex" member="prepareOptions" />
+    <pattern value="\Predis\Command\ZSetRangeByLex" />
+    <pattern value="\Predis\Command\ZSetRangeByScore" member="prepareOptions" />
+    <pattern value="\Predis\Command\ZSetRangeByScore" />
+    <pattern value="\yxorP\Http\Response" member="printContent" />
+    <pattern value="\yxorP\Http\Response" />
+    <pattern value="\yxorP\Http\Response" member="__construct" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="process" />
+    <pattern value="\Predis\Command\Processor\ProcessorChain" member="process" />
+    <pattern value="\Predis\Command\Processor\ProcessorInterface" member="process" />
+    <pattern value="\Predis\Command\Processor\ProcessorInterface" />
+    <pattern value="\Predis\Command\ServerSentinel" member="processMastersOrSlaves" />
+    <pattern value="\Predis\Command\PubSubPubsub" member="processNumsub" />
+    <pattern value="\Predis\Profile\ProfileInterface" />
+    <pattern value="\ProxifyPlugin" />
+    <pattern value="\Predis\PubSub\AbstractConsumer" member="psubscribe" />
+    <pattern value="\Predis\Command\PubSubPublish" />
+    <pattern value="\Predis\Command\PubSubPubsub" />
+    <pattern value="\Predis\Command\PubSubSubscribe" />
+    <pattern value="\Predis\Command\PubSubSubscribeByPattern" />
+    <pattern value="\Predis\Command\PubSubUnsubscribe" />
+    <pattern value="\Predis\Command\PubSubUnsubscribeByPattern" />
+    <pattern value="\Predis\Client" member="quit" />
+    <pattern value="\Predis\Protocol\ResponseReaderInterface" member="read" />
+    <pattern value="\Predis\Protocol\ResponseReaderInterface" />
+    <pattern value="\Predis\Protocol\Text\CompositeProtocolProcessor" member="read" />
+    <pattern value="\Predis\Protocol\Text\ResponseReader" member="read" />
+    <pattern value="\Predis\Profile\RedisUnstable" />
+    <pattern value="\Predis\Profile\RedisVersion200" />
+    <pattern value="\Predis\Profile\RedisVersion220" />
+    <pattern value="\Predis\Profile\RedisVersion240" />
+    <pattern value="\Predis\Profile\RedisVersion260" />
+    <pattern value="\Predis\Profile\RedisVersion280" />
+    <pattern value="\Predis\Profile\RedisVersion300" />
+    <pattern value="\NaiveDistributor" member="remove" />
+    <pattern value="\Predis\Command\Processor\ProcessorChain" member="remove" />
+    <pattern value="\Predis\Connection\Aggregate\MasterSlaveReplication" member="remove" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="remove" />
+    <pattern value="\Predis\Connection\AggregateConnectionInterface" member="remove" />
+    <pattern value="\Predis\Connection\Aggregate\PredisCluster" member="removeById" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="removeById" />
+    <pattern value="\SSDB" member="request" />
+    <pattern value="\Predis\Protocol\RequestSerializerInterface" />
+    <pattern value="\Predis\Collection\Iterator\CursorBasedIterator" member="rewind" />
+    <pattern value="\Predis\Collection\Iterator\ListKey" member="rewind" />
+    <pattern value="\Predis\Monitor\Consumer" member="rewind" />
+    <pattern value="\Predis\PubSub\AbstractConsumer" member="rewind" />
+    <pattern value="\Predis\Response\Iterator\MultiBulkIterator" member="rewind" />
+    <pattern value="\BaseCache" member="search" />
+    <pattern value="\Predis\Protocol\RequestSerializerInterface" member="serialize" />
+    <pattern value="\Predis\Command\ServerBackgroundRewriteAOF" />
+    <pattern value="\Predis\Command\ServerBackgroundSave" />
+    <pattern value="\Predis\Command\ServerCommand" />
+    <pattern value="\Predis\Command\ServerConfig" />
+    <pattern value="\Predis\Command\ServerDatabaseSize" />
+    <pattern value="\Predis\Response\ServerException" />
+    <pattern value="\Predis\Command\ServerFlushAll" />
+    <pattern value="\Predis\Command\ServerFlushDatabase" />
+    <pattern value="\Predis\Command\ServerInfoV26x" />
+    <pattern value="\Predis\Command\ServerLastSave" />
+    <pattern value="\Predis\Command\ServerMonitor" />
+    <pattern value="\Predis\Command\ServerObject" />
+    <pattern value="\Predis\Command\ServerSave" />
+    <pattern value="\Predis\Command\ServerScript" />
+    <pattern value="\Predis\Command\ServerSentinel" />
+    <pattern value="\Predis\Command\ServerShutdown" />
+    <pattern value="\Predis\Command\ServerSlaveOf" />
+    <pattern value="\Predis\Command\ServerSlowlog" />
+    <pattern value="\Predis\Command\ServerTime" />
+    <pattern value="\Predis\Transaction\MultiExecState" member="set" />
+    <pattern value="\SSDB" member="set_timeout" />
+    <pattern value="\Predis\Command\SetAdd" />
+    <pattern value="\Predis\Command\Command" member="setArguments" />
+    <pattern value="\Predis\Command\CommandInterface" member="setArguments" />
+    <pattern value="\Predis\Command\SetCardinality" />
+    <pattern value="\Predis\Cluster\ClusterStrategy" member="setCommandHandler" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="setCommandHandler" />
+    <pattern value="\Predis\Replication\ReplicationStrategy" member="setCommandReadOnly" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="setDefaultParameters" />
+    <pattern value="\Predis\Command\SetDifference" />
+    <pattern value="\Predis\Command\SetDifferenceStore" />
+    <pattern value="\Predis\Protocol\Text\ResponseReader" member="setHandler" />
+    <pattern value="\Predis\Command\SetIntersection" />
+    <pattern value="\Predis\Command\SetIntersectionStore" />
+    <pattern value="\Predis\Command\SetIsMember" />
+    <pattern value="\Predis\Command\SetMembers" />
+    <pattern value="\Predis\Command\SetMove" />
+    <pattern value="\BaseCache" member="setMulti" />
+    <pattern value="\yxorp" member="setOutputBuffering" />
+    <pattern value="\Predis\Command\SetPop" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="setPrefix" />
+    <pattern value="\Predis\Command\SetRandomMember" />
+    <pattern value="\Predis\Command\SetRemove" />
+    <pattern value="\Predis\Command\SetScan" />
+    <pattern value="\Predis\Command\SetUnion" />
+    <pattern value="\Predis\Command\SetUnionStore" />
+    <pattern value="\yxorP\cache\cache" member="setup" />
+    <pattern value="\SimpleDebuggableConnection" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="skipFirst" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="skipLast" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="sort" />
+    <pattern value="\Predis\Connection\StreamConnection" />
+    <pattern value="\StreamPlugin" />
+    <pattern value="\Predis\Command\StringAppend" />
+    <pattern value="\Predis\Command\StringBitCount" />
+    <pattern value="\Predis\Command\StringBitOp" />
+    <pattern value="\Predis\Command\StringBitPos" />
+    <pattern value="\Predis\Command\StringDecrement" />
+    <pattern value="\Predis\Command\StringDecrementBy" />
+    <pattern value="\Predis\Command\StringGet" />
+    <pattern value="\Predis\Command\StringGetBit" />
+    <pattern value="\Predis\Command\StringGetMultiple" />
+    <pattern value="\Predis\Command\StringGetRange" />
+    <pattern value="\Predis\Command\StringGetSet" />
+    <pattern value="\Predis\Command\StringIncrement" />
+    <pattern value="\Predis\Command\StringIncrementBy" />
+    <pattern value="\Predis\Command\StringIncrementByFloat" />
+    <pattern value="\Predis\Command\StringPreciseSetExpire" />
+    <pattern value="\Predis\Command\StringSet" />
+    <pattern value="\Predis\Command\StringSetBit" />
+    <pattern value="\Predis\Command\StringSetExpire" />
+    <pattern value="\Predis\Command\StringSetMultiple" />
+    <pattern value="\Predis\Command\StringSetMultiplePreserve" />
+    <pattern value="\Predis\Command\StringSetPreserve" />
+    <pattern value="\Predis\Command\StringSetRange" />
+    <pattern value="\Predis\Command\StringStrlen" />
+    <pattern value="\Predis\Command\StringSubstr" />
+    <pattern value="\AbstractPlugin" member="subscribe" />
+    <pattern value="\Predis\PubSub\DispatcherLoop" member="subscriptionCallback" />
+    <pattern value="\BaseCache" member="systemInfo" />
+    <pattern value="\Predis\Connection\PhpiredisStreamConnection" member="tcpStreamInitializer" />
+    <pattern value="\Predis\Connection\StreamConnection" member="tcpStreamInitializer" />
+    <pattern value="\Proxy\Proxy" member="to" />
+    <pattern value="\Predis\Connection\Parameters" member="toArray" />
+    <pattern value="\Predis\Connection\ParametersInterface" member="toArray" />
+    <pattern value="\Predis\Response\ServerException" member="toErrorResponse" />
+    <pattern value="\BaseCache" member="touchMulti" />
+    <pattern value="\Predis\Client" member="transaction" />
+    <pattern value="\Predis\Command\TransactionDiscard" />
+    <pattern value="\Predis\Command\TransactionExec" />
+    <pattern value="\Predis\Command\TransactionMulti" />
+    <pattern value="\Predis\Command\TransactionUnwatch" />
+    <pattern value="\Predis\Command\TransactionWatch" />
+    <pattern value="\TwitterPlugin" />
+    <pattern value="\Predis\Connection\Factory" member="undefine" />
+    <pattern value="\Predis\Connection\FactoryInterface" member="undefine" />
+    <pattern value="\Predis\Connection\StreamConnection" member="unixStreamInitializer" />
+    <pattern value="\Predis\Transaction\MultiExec" member="unwatch" />
+    <pattern value="\Predis\Connection\Aggregate\RedisCluster" member="useClusterSlots" />
+    <pattern value="\Predis\Protocol\Text\ProtocolProcessor" member="useIterableMultibulk" />
+    <pattern value="\Predis\Collection\Iterator\CursorBasedIterator" member="valid" />
+    <pattern value="\Predis\Collection\Iterator\ListKey" member="valid" />
+    <pattern value="\Predis\Monitor\Consumer" member="valid" />
+    <pattern value="\Predis\Cluster\Distributor\KetamaRing" member="wrapAroundStrategy" />
+    <pattern value="\Predis\Protocol\Text\CompositeProtocolProcessor" member="write" />
+    <pattern value="\yxorp" member="write_callback" />
+    <pattern value="\YoutubePlugin" />
+    <pattern value="\SSDB" member="zadd" />
+    <pattern value="\SSDB" member="zdecr" />
+    <pattern value="\SSDB" member="zincr" />
+    <pattern value="\SSDB" member="zRevRange" />
+    <pattern value="\SSDB" member="zRevRank" />
+    <pattern value="\Predis\Command\ZSetAdd" />
+    <pattern value="\Predis\Command\ZSetCardinality" />
+    <pattern value="\Predis\Command\ZSetCount" />
+    <pattern value="\Predis\Command\ZSetIncrementBy" />
+    <pattern value="\Predis\Command\ZSetIntersectionStore" />
+    <pattern value="\Predis\Command\ZSetLexCount" />
+    <pattern value="\Predis\Command\ZSetRange" />
+    <pattern value="\Predis\Command\ZSetRank" />
+    <pattern value="\Predis\Command\ZSetRemove" />
+    <pattern value="\Predis\Command\ZSetRemoveRangeByLex" />
+    <pattern value="\Predis\Command\ZSetRemoveRangeByRank" />
+    <pattern value="\Predis\Command\ZSetRemoveRangeByScore" />
+    <pattern value="\Predis\Command\ZSetReverseRange" />
+    <pattern value="\Predis\Command\ZSetReverseRangeByScore" />
+    <pattern value="\Predis\Command\ZSetReverseRank" />
+    <pattern value="\Predis\Command\ZSetScan" />
+    <pattern value="\Predis\Command\ZSetScore" />
+    <pattern value="\Predis\Command\Processor\KeyPrefixProcessor" member="zsetStore" />
+    <pattern value="\Predis\Command\ZSetUnionStore" />
+    <pattern value="\HashMultipleGetAll" member="getScript" />
+    <pattern value="\HashMultipleGetAll" />
+    <pattern value="\Predis\Collection\Iterator\HashKey" member="__construct" />
+    <pattern value="\Predis\Collection\Iterator\HashKey" />
+    <pattern value="\Predis\Collection\Iterator\Keyspace" member="__construct" />
+    <pattern value="\Predis\Collection\Iterator\Keyspace" />
+    <pattern value="\Predis\Collection\Iterator\SetKey" member="__construct" />
+    <pattern value="\Predis\Collection\Iterator\SetKey" />
+    <pattern value="\Predis\Collection\Iterator\SortedSetKey" member="__construct" />
+    <pattern value="\Predis\Collection\Iterator\SortedSetKey" />
+    <pattern value="\Predis\PubSub\DispatcherLoop" member="attachCallback" />
+    <pattern value="\Predis\Collection\Iterator\HashKey" member="executeCommand" />
+    <pattern value="\Predis\Collection\Iterator\Keyspace" member="executeCommand" />
+    <pattern value="\Predis\Collection\Iterator\SetKey" member="executeCommand" />
+    <pattern value="\Predis\Collection\Iterator\SortedSetKey" member="executeCommand" />
+    <pattern value="\Predis\Client" member="executeRaw" />
+    <pattern value="\Predis\Collection\Iterator\HashKey" member="extractNext" />
+    <pattern value="\Predis\Collection\Iterator\SortedSetKey" member="extractNext" />
+    <pattern value="\Predis\Client" member="getClientFor" />
+    <pattern value="\Predis\Client" member="monitor" />
+    <pattern value="\Predis\Client" member="pipeline" />
+    <pattern value="\Predis\Client" member="pubSubLoop" />
+    <pattern value="\Predis\Session\Handler" member="register" />
+    <pattern value="\Predis\PubSub\DispatcherLoop" member="run" />
+    <pattern value="\Predis\Replication\ReplicationStrategy" member="setScriptReadOnly" />
+    <pattern value="\Predis\PubSub\DispatcherLoop" member="stop" />
+  </component>
+</project>
