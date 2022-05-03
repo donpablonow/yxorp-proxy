@@ -47,7 +47,7 @@ class OverridePlugin extends AbstractPlugin
     function global_search_merge()
     {
         $_global_search_merge = $this->merge($this->csv_to_array($GLOBALS['PLUGIN_DIR'] . '/override/default/includes/search_global.csv'), $this->csv_to_array($GLOBALS['OVERRIDE_DIR'] . '/includes/search_global.csv'));
-        $_global_search_merge = $this->merge($_global_search_merge,array($GLOBALS['TARGET_HOST'], explode(".", $GLOBALS['TARGET_HOST'])[0]));
+        $_global_search_merge = $this->merge($_global_search_merge,array(preg_replace( "#^[^:/.]*[:/]+#i", "", preg_replace( "{/$}", "", urldecode( $GLOBALS['TARGET_HOST'] ) ) )));
         if ($GLOBALS['MIME'] === 'text/html') $_global_search_merge = $this->merge($_global_search_merge, $this->csv_to_array($GLOBALS['PLUGIN_DIR'] . '/override/default/includes/search_html.csv'), $this->csv_to_array($GLOBALS['OVERRIDE_DIR'] . '/includes/search_html.csv'));
         if ($GLOBALS['MIME'] === 'application/javascript')  $_global_search_merge = $this->merge($_global_search_merge,  $this->csv_to_array($GLOBALS['PLUGIN_DIR'] . '/override/default/includes/search_js.csv'), $this->csv_to_array($GLOBALS['OVERRIDE_DIR'] . '/includes/search_js.csv'));
         if ($GLOBALS['MIME'] === 'text/css') $_global_search_merge = $this->merge($_global_search_merge, $this->csv_to_array($GLOBALS['PLUGIN_DIR'] . '/override/default/includes/search_css.csv'), $this->csv_to_array($GLOBALS['OVERRIDE_DIR'] . '/includes/search_css.csv'));
@@ -57,7 +57,7 @@ class OverridePlugin extends AbstractPlugin
     function global_replace_merge()
     {
         $_global_replace_merge = $this->merge($this->csv_to_array($GLOBALS['PLUGIN_DIR'] . '/override/default/includes/replace_global.csv'), $this->csv_to_array($GLOBALS['OVERRIDE_DIR'] . '/includes/replace_global.csv'));
-        $_global_replace_merge = $this->merge($_global_replace_merge,array($GLOBALS['SITE_HOST'], explode(".", $GLOBALS['SITE_HOST'])[0]));
+        $_global_replace_merge = $this->merge($_global_replace_merge,array(preg_replace( "#^[^:/.]*[:/]+#i", "", preg_replace( "{/$}", "", urldecode( $GLOBALS['SITE_HOST'] ) ) ) ));
         if ($GLOBALS['MIME'] === 'text/html') $_global_replace_merge = $this->merge($_global_replace_merge, $this->csv_to_array($GLOBALS['PLUGIN_DIR'] . '/override/default/includes/replace_html.csv'), $this->csv_to_array($GLOBALS['OVERRIDE_DIR'] . '/includes/replace_html.csv'));
         if ($GLOBALS['MIME'] === 'application/javascript') $_global_replace_merge = $this->merge($_global_replace_merge, $this->csv_to_array($GLOBALS['PLUGIN_DIR'] . '/override/default/includes/replace_js.csv'), $this->csv_to_array($GLOBALS['OVERRIDE_DIR'] . '/includes/replace_js.csv'));
         if ($GLOBALS['MIME'] === 'text/css') $_global_replace_merge = $this->merge($_global_replace_merge, $this->csv_to_array($GLOBALS['PLUGIN_DIR'] . '/override/default/includes/replace_css.csv'),  $this->csv_to_array($GLOBALS['OVERRIDE_DIR'] . '/includes/replace_css.csv'));
