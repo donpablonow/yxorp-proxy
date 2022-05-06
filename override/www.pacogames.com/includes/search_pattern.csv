@@ -1,2 +1,0 @@
-"/(?<=,ONESIGNAL_VENDOR_APP_KEY:)(.*)(?=><)/",
-"/(?<=intercom.io)(.*?)(?=')/"
