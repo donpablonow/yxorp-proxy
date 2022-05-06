@@ -111,6 +111,7 @@ class yxorp
             if ($GLOBALS['MIME'] !== 'text/html') {
                 header("Location: " . $GLOBALS['PROXY_URL']);
             } else {
+                if($GLOBALS['DEBUG']) echo $e->__toString();
                 $GLOBALS['BUGSNAG']->notifyException($e);
             }
         }
