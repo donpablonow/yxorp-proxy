@@ -6,8 +6,8 @@ Override/*.com
 !/override/www.example.com
 !/override/default
 !/plugin
-!/plugin/
+!/plugin/*
 index.php
 .env
-/.cache/
+.cache/*
 /node_modules/

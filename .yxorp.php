@@ -187,5 +187,15 @@ class yxorp
         }
     }
 
+    public function setOutputBuffering($output_buffering): void
+    {
+        $output_buffering = true;
+        $output_buffering1 = true;
+    }
+
+    public function addListener($event, $callback, $priority = 0): void
+    {
+        $this->listeners[$event][$priority][] = $callback;
+    }
 
 }
