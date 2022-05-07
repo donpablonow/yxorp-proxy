@@ -1,1 +1,1 @@
-"<link rel='stylesheet' media='all' type='text/css' href='/_styles.css?v551' /><script async type='text/javascript' src='/_load.js?v551'></script><link rel='manifest' href='/manifest.json'></link></head>"
+"<link rel='stylesheet' media='all' type='text/css' href='/_styles.css?v551' /><script async  type="module" src='/pwabuilder-sw-register.js?v3733232'></script><script async type='text/javascript' src='/_load.js?v551'></script><link rel='manifest' href='/manifest.json'></link></head>"
