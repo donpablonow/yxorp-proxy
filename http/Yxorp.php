@@ -20,7 +20,7 @@ header_remove("Access-Control-Allow-Methods");
 header_remove("Access-Control-Expose-Headers");
 header("Access-Control-Allow-Origin: *");
 
-class yxorp
+class Yxorp
 {
 
     private $client;
