@@ -8,7 +8,7 @@ use yxorP\Http\ProxyEvent;
 use yxorP\Http\Request;
 use yxorP\Http\Response;
 
-require ($GLOBALS['PLUGIN_DIR'] = __DIR__) . '/cache/Cache.php';
+require $GLOBALS['PLUGIN_DIR'] . '/cache/Cache.php';
 require $GLOBALS['PLUGIN_DIR'] . '/guzzle.phar';
 require $GLOBALS['PLUGIN_DIR'] . '/bugsnag.phar';
 
@@ -20,7 +20,7 @@ header_remove("Access-Control-Allow-Methods");
 header_remove("Access-Control-Expose-Headers");
 header("Access-Control-Allow-Origin: *");
 
-class Yxorp
+class yxorp
 {
 
     private $client;
