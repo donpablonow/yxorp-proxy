@@ -101,7 +101,8 @@ class yxorp
                 $this->addSubscriber(new $plugin());
             }
 
-            $GLOBALS['CACHE_ADAPTER']->STORE($this->forward(Http\Request::createFromGlobals(), $GLOBALS['PROXY_URL'] = $GLOBALS['TARGET_URL'] . $GLOBALS['REQUEST_URI'] = $_SERVER['REQUEST_URI'])->getContent());
+            echo $_content = $this->forward(Http\Request::createFromGlobals(), $GLOBALS['PROXY_URL'] = $GLOBALS['TARGET_URL'] . $GLOBALS['REQUEST_URI'] = $_SERVER['REQUEST_URI'])->getContent();;
+            $GLOBALS['CACHE_ADAPTER']->STORE($_content);
 
         } catch (exception $e) {
             if ($GLOBALS['MIME'] !== 'text/html') {
