@@ -2,8 +2,6 @@
 
 namespace yxorP\Http;
 
-use JetBrains\PhpStorm\Pure;
-
 
 /**
  * @property $protocol_version

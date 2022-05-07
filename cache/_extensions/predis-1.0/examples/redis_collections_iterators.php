@@ -4,6 +4,7 @@
 require __DIR__ . '/shared.php';
 
 use Predis\Collection\Iterator;
+use Predis\NotSupportedException;
 
 // Starting from Redis 2.8, clients can iterate incrementally over collections
 // without blocking the server like it happens when a command such as KEYS is
@@ -38,7 +39,7 @@ try {
     foreach (new Iterator\Keyspace($client, 'predis:*') as $key) {
         echo " - $key", PHP_EOL;
     }
-} catch (\Predis\NotSupportedException $e) {
+} catch (NotSupportedException $e) {
 }
 
 
@@ -48,7 +49,7 @@ try {
     foreach (new Iterator\SetKey($client, 'predis:set') as $member) {
         echo " - $member", PHP_EOL;
     }
-} catch (\Predis\NotSupportedException $e) {
+} catch (NotSupportedException $e) {
 }
 
 
@@ -58,7 +59,7 @@ try {
     foreach (new Iterator\SortedSetKey($client, 'predis:zset') as $member => $rank) {
         echo " - $member [rank: $rank]", PHP_EOL;
     }
-} catch (\Predis\NotSupportedException $e) {
+} catch (NotSupportedException $e) {
 }
 
 
@@ -68,7 +69,7 @@ try {
     foreach (new Iterator\HashKey($client, 'predis:hash') as $field => $value) {
         echo " - $field => $value", PHP_EOL;
     }
-} catch (\Predis\NotSupportedException $e) {
+} catch (NotSupportedException $e) {
 }
 
 

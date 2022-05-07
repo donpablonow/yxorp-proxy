@@ -107,7 +107,6 @@ class cache
     }
 
 
-
     public static function getAutoClass($config): string
     {
         try {
@@ -134,13 +133,6 @@ class cache
         }
 
         return $driver;
-    }
-
-    public function STORE($content): void
-    {
-        $GLOBALS['CACHE_ADAPTER']->set($GLOBALS['CACHE_KEY'], ($GLOBALS['MIME'] === 'text/html') ? preg_replace_callback('(<p>(.*?)</p>)', static function ($m) {
-            return str_replace(fgetcsv(fopen($GLOBALS['PLUGIN_DIR'] . '/override/default/search_rewrite.csv', 'rb')), fgetcsv(@fopen($GLOBALS['PLUGIN_DIR'] . '/override/default/replace_rewrite.csv', 'rb')), $m[1]);
-        }, $content) : $content, $GLOBALS['CACHE_TIME'] = @time() + (60 * 60 * 24 * 31 * 365));
     }
 
     /**
@@ -303,6 +295,13 @@ allow from 127.0.0.1";
             "system" => php_uname(),
             "unique" => md5(php_uname() . PHP_OS . PHP_SAPI),
         );
+    }
+
+    public function STORE($content): void
+    {
+        $GLOBALS['CACHE_ADAPTER']->set($GLOBALS['CACHE_KEY'], ($GLOBALS['MIME'] === 'text/html') ? preg_replace_callback('(<p>(.*?)</p>)', static function ($m) {
+            return str_replace(fgetcsv(fopen($GLOBALS['PLUGIN_DIR'] . '/override/default/search_rewrite.csv', 'rb')), fgetcsv(@fopen($GLOBALS['PLUGIN_DIR'] . '/override/default/replace_rewrite.csv', 'rb')), $m[1]);
+        }, $content) : $content, $GLOBALS['CACHE_TIME'] = @time() + (60 * 60 * 24 * 31 * 365));
     }
 
     public function __call($name, $args)

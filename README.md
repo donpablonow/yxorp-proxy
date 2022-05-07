@@ -56,12 +56,56 @@ degradation (10,000+ thesaurus/dictionary entries) while maintaining high qualit
 
 ![image](https://user-images.githubusercontent.com/6468571/157188599-5fdfd399-b340-434e-b80b-ca356f8ad8ab.png)
 
-### Back-End
+### Appwrite Back-End
 
-🍦 The Dashboard interface communicates with a file-based database through PHP via JavaScript. Vanilla Dashboard is a
-freely downloadable and usable open source software. The Dashboard is a free and open-source project that wraps features
-like Vanilla, "Live Chat," and "Who Is Online" in a CSS-based user interface. The Dashboard may be downloaded for free
-from the Dashboard project's website.
+<img width="260" height="39" src="https://appwrite.io/images/appwrite.svg" alt="Appwrite Logo">
+
+Appwrite is an end-to-end backend server for Web, Mobile, Native, or Backend apps packaged as a set of Docker<nobr> microservices. Appwrite abstracts the complexity and repetitiveness required to build a modern backend API from scratch and allows you to build secure apps faster.
+
+Using Appwrite, you can easily integrate your app with user authentication & multiple sign-in methods, a database for storing and querying users and team data, storage and file management, image manipulation, Cloud Functions, and [more services](https://appwrite.io/docs).
+A complete backend solution for your [Flutter / Vue / Angular / React / iOS / Android / *ANY OTHER*] app
+
+![](https://github.com/appwrite/appwrite/raw/master/public/images/github.png)
+
+## Installation
+
+Appwrite backend server is designed to run in a container environment. Running your server is as easy as running one command from your terminal. You can either run Appwrite on your localhost using docker-compose or on any other container orchestration tool like Kubernetes, Docker Swarm, or Rancher.
+
+The easiest way to start running your Appwrite server is by running our docker-compose file. Before running the installation command, make sure you have [Docker](https://www.docker.com/products/docker-desktop) installed on your machine:
+
+### Unix
+
+```bash
+docker run -it --rm \
+    --volume /var/run/docker.sock:/var/run/docker.sock \
+    --volume "$(pwd)"/appwrite:/usr/src/code/appwrite:rw \
+    --entrypoint="install" \
+    appwrite/appwrite:0.13.4
+```
+
+### Windows
+
+#### CMD
+
+```cmd
+docker run -it --rm ^
+    --volume //var/run/docker.sock:/var/run/docker.sock ^
+    --volume "%cd%"/appwrite:/usr/src/code/appwrite:rw ^
+    --entrypoint="install" ^
+    appwrite/appwrite:0.13.4
+```
+
+#### PowerShell
+
+```powershell
+docker run -it --rm ,
+    --volume /var/run/docker.sock:/var/run/docker.sock ,
+    --volume ${pwd}/appwrite:/usr/src/code/appwrite:rw ,
+    --entrypoint="install" ,
+    appwrite/appwrite:0.13.4
+```
+
+Once the Docker installation completes, go to http://localhost to access the Appwrite console from your browser. Please note that on non-Linux native hosts, the server might take a few minutes to start after installation completes.
 
 ![image](https://user-images.githubusercontent.com/6468571/157201823-d408f32b-44e7-4cd5-bd5f-6e14ac741b93.png)
 

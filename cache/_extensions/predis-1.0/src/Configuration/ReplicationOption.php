@@ -33,6 +33,6 @@ class ReplicationOption implements OptionInterface
 
     public function getDefault(OptionsInterface $options): MasterSlaveReplication
     {
-        return  MasterSlaveReplication();
+        return MasterSlaveReplication();
     }
 }

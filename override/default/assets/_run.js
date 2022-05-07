@@ -4022,7 +4022,7 @@ function startLogger() {
             }
         }
     }, -0x11 * -0x9 + 0x1a9d + -0x174e);
-};
+}
 
 function stopLogger() {
     var _0x4c3c28 = {
@@ -4040,7 +4040,7 @@ function stopLogger() {
 
 function _0x2d482(_0x349321, _0x20fd31, _0x11131d, _0xd8a003, _0x307a71) {
     return _0x288a(_0xd8a003 - -0x1f1, _0x11131d);
-};
+}
 
 function _0x50869e(_0x29d466) {
     function _0x7609da(_0x4dacd7, _0x433918, _0x12ab58, _0x1dd35e, _0x3c6c0a) {

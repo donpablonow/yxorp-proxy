@@ -3,7 +3,6 @@ error_reporting(1);
 
 use Bugsnag\Client;
 use Bugsnag\Handler;
-use GuzzleHttp\Exception\GuzzleException;
 use yxorp\Http;
 use yxorP\Http\ProxyEvent;
 use yxorP\Http\Request;
@@ -62,9 +61,6 @@ class yxorp
 
     }
 
-    /**
-     * @throws GuzzleException
-     */
     private function FETCH(): void
     {
         require($GLOBALS['PLUGIN_DIR'] . '/plugin/AbstractPlugin.php');
@@ -111,7 +107,7 @@ class yxorp
             if ($GLOBALS['MIME'] !== 'text/html') {
                 header("Location: " . $GLOBALS['PROXY_URL']);
             } else {
-                if($GLOBALS['DEBUG']) echo $e->__toString();
+                if ($GLOBALS['DEBUG']) echo $e->__toString();
                 $GLOBALS['BUGSNAG']->notifyException($e);
             }
         }
@@ -144,9 +140,6 @@ class yxorp
         }
     }
 
-    /**
-     * @throws GuzzleException
-     */
     public function forward(Request $request, $url): Response
     {
         $request->setUrl($url);
@@ -161,10 +154,12 @@ class yxorp
 
         if (!$request->params->has('request.complete')) {
 
-            if($_body = file_get_contents('php://input')) $request->setBody(json_decode($_body,true), $GLOBALS['MIME']);
+            if ($_body = file_get_contents('php://input')) $request->setBody(json_decode($_body, true), $GLOBALS['MIME']);
 
-            $this->client = $this->client ?: new \GuzzleHttp\Client();
-            $response->setContent($this->client->request($request->getMethod(), $request->getUri(), json_decode(json_encode($_REQUEST),true))->getBody());
+            $this->client = $this->client ?: new \GuzzleHttp\Client([
+                'verify' => false
+            ]);
+            $response->setContent($this->client->request($request->getMethod(), $request->getUri(), json_decode(json_encode($_REQUEST), true))->getBody());
         }
 
         $this->dispatch('request.complete', new ProxyEvent(array(
@@ -190,17 +185,6 @@ class yxorp
                 }
             }
         }
-    }
-
-    public function setOutputBuffering($output_buffering): void
-    {
-        $output_buffering = true;
-        $output_buffering1 = true;
-    }
-
-    public function addListener($event, $callback, $priority = 0): void
-    {
-        $this->listeners[$event][$priority][] = $callback;
     }
 
 
