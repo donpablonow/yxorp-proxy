@@ -1,0 +1,19 @@
+ google.com, pub-8114628379784713, DIRECT, f08c47fec0942fa0
+ google.com, pub-5908399841745966, DIRECT, f08c47fec0942fa0
+ #WG ADX
+ google.com, pub-4529402052683454, DIRECT, f08c47fec0942fa0
+ # WGSOVRN
+ sovrn.com, 267609, DIRECT, fafdf38b16bf6b2b
+ lijit.com, 267609, DIRECT, fafdf38b16bf6b2b
+ lijit.com, 267609-eb, DIRECT, fafdf38b16bf6b2b
+ gumgum.com, 11645, RESELLER, ffdef49475d318a9
+ openx.com, 538959099, RESELLER, 6a698e2ec38604c6
+ openx.com, 539924617, RESELLER, 6a698e2ec38604c6
+ pubmatic.com, 137711, RESELLER, 5d62403b186f2ace
+ pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
+ pubmatic.com, 156700, RESELLER, 5d62403b186f2ace
+ rubiconproject.com, 17960, RESELLER, 0bfd66d529a55807
+ # WGMedia.net
+ Media.net, 8CUH9L1I2, Direct
+ # WGFluct
+ adingo.jp,26062, RESELLER
